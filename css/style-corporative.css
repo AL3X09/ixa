@@ -1,0 +1,135 @@
+body {
+	background: url("../img/background.png") fixed;
+}
+
+i.icon-small {
+	font-size: 100px;
+}
+
+i.ok {
+	color: green;
+}
+
+i.no-aply {
+	color: red;
+}
+
+i.in-progress {
+	color: orange;
+}
+
+i.required {
+	color: #000080;
+}
+/*
+.container{
+	
+	background-color: #BC149C;
+}
+.collapsed{
+	color : black;
+}
+
+
+
+/* .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus */
+/* 	{ */
+/* 	color: #000; Sets the text hover color on navbar */
+/* } */
+
+/* .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, */
+/* 	.navbar-inverse .navbar-nav>.active>a:focus { */
+/* 	color: white; BACKGROUND color for active */
+/* 	background-color: blue; */
+/* } */
+
+/* .navbar-inverse { */
+/* 	background-color: #BC149C; */
+/* 	border-color: #030033; */
+/* } */
+
+/* .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { */
+/* 	color: #262626; */
+/* 	text-decoration: none; */
+/* 	background-color: #BC149C; change color of links in drop down here */
+/* } */
+
+/* .nav>li>a:hover, .nav>li>a:focus { */
+/* 	text-decoration: none; */
+/* 	background-color: silver; Change rollover cell color here */
+/* } */
+
+/* .navbar-inverse .navbar-nav>li>a { */
+/* 	color: white; Change active text color here */
+/* } */
+
+/* navbar */
+.navbar-inverse {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+/* title */
+.navbar-inverse .navbar-brand {
+    color: #FFF;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #BC149C;
+}
+/* link */
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #BC149C;
+    background-color: #40EE23;
+}
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #BC149C;
+    background-color: #D5D5D5;
+}
+/* caret */
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-inverse .navbar-nav > .dropdown > a:hover .caret,
+.navbar-inverse .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-inverse .navbar-nav > .open > a .caret, 
+.navbar-inverse .navbar-nav > .open > a:hover .caret, 
+.navbar-inverse .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-inverse .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        color: #BC149C;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #fff;
+    }
+}
